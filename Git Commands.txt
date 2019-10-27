@@ -1,0 +1,94 @@
+1) git init (to make any directory into git directory after running these git started to track the file or this will create ".git" hidden folder in your directory which will make your current folder, a git repository)
+
+2) git add . or git add "file name" or git add *.txt (it will add the files in staging area)
+
+3) git status (it shows the status of your filesystem)
+
+4) git commit -m "commit message" (to commit ur file means to take the snapshot or to track the changes)
+
+5) git log (check logs to see the commit history)
+
+6) git reset (it will unstage all staged files if they were not commited, changes will remain the same)Note: to run these command ur files should me staged.
+
+7) git reset --hard (it will unstage all staged files if they were not commited, and also discard the changes locally)Note: it will discard the changes rather files were stage or not
+
+8) git branch (show the list of branches)
+
+9) git branch -v (show list of branches with some details or with last commit)
+
+10) git branch "branch name" (create a new branch)
+
+11) git checkout "branch name" (switch to another branch)
+
+12) git merge "branch name" (merge "given branch" into current active branch)
+
+13) git log "branch name".."branch name" (show commit difference in two branches)
+
+14) git stash (save changes of your file locally)
+
+15) git stash save "name" (save local changes with the provided name)
+
+16) git stash list (show list of stashes)
+
+17) git stash pop (apply latest stash and remove it from clipboard)
+
+18) git stash apply "stashname" (apply specific stash and that stash will remain saved in clipboard)
+
+19) git stash clear (to remove all the temporary changes)
+
+20) git clone "URL" (it pull the code from server)
+
+21) git push (push changes to remote repository)
+
+22) git fetch (bring changes from remote repository but not visible)
+
+23) git merge (merge changes that was bring by "git fetch" command and now it is available and can seen)
+
+24) git pull (fetch and merge changes from server)(it is better to run these command bcz it will do the job of fetch and as well as merge command's work at once) 
+
+25) git remote -v (show remote Urls)(show that your local repository bolongs to which remote repositories)
+
+26) git remote show "origin" (summary or details about your remote repository)(Origin is by default, can be edit)
+
+27) git remote add "repo name" "Urls" (this command will add remote repo in local repo)
+
+28) git push -u "repo name" "branch name" (the "-u" flag establishes a tracking connection between remote and our local repo)
+
+29) git push "remo repo" "branch" (git push origin master)
+
+30) git log (show logs for current branch)
+
+31) git log remote/branch (log history from particular remote repo)
+
+32) git remote -v (shows those local repo which are coonected to remote repo)
+
+33) git branch -d "branch name" (to delete a branch which is not more needed)
+
+34) git branch -dr "remote repo name/branch name" (to delete a branch from remote repository locally which is not more needed ) (r shows remote repo) 
+
+35) git push origin --delete "branch name" (to del a branch from remote repo directly to github)
+
+36) git checkout HEAD "file name" (discard the particular or given file changes that are not commited yet)
+
+37) git reset --hard HEAD (discard all the changes that are not commited)
+
+38) git reset --hard A  (will change the commit history, repository, staging and working directory; you will go back to the state of A completely) (last commits are discarded)
+
+39) git revert (used to undo a previous commit) (add another commit)
+
+40) git reset (used to undo changes in your working directory that haven't been comitted yet)
+
+41) git revert <commit hash> (want to discard the changes of commited code)
+
+42) git push -f "remote repo" "branch name" (force push)
+
+43) git rebase "branch name" (it rebases your given branch)
+
+
+
+
+
+
+
+
+
