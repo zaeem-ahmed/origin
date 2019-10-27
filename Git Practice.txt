@@ -1,0 +1,79 @@
+* Vcs runs as independent it let u work on any surface, any editor and etc.
+
+* Storing Versions: u dont need to create backups everytime when it comes to changes and u want to move on to the last action u performed then VCS provide 
+you these benefit bcz it continiously taking ur snapshots so in vcs u r working on only the one working directory then if u need to go back so u easily went 
+back without backups by using last snapsjots.
+
+* git-scm.com(to download git)
+
+* syntevo.com(to download smart git)
+
+* write "git" on cmd to verify rather git downloaded or not.
+
+* to enter the name and email in git u use the following commands:
+for name: git config --global user.name "Your Name"
+for email: git config --global user.email "Your Email"
+
+* Staging Area: where u decide how much files would u like to send in staging area and from there how much you want commit to the next area called local repository.
+
+* After commiting, your history of filesystem started to record.
+1. Git Operations:-
+i) git add (ur files went to the staging area or how much would u like to send in proceding process)
+ii) git commit (after running this your record of history started to create or after commit ur data continiously recorded at permanent basis)
+iii) git push (to send the data on your server)
+iv) git pull (to receive data from server)
+v) git checkout (to move any branch on your local repo or want to some changes locally)
+vi) git merge (it will integrate your whole filesystem or branches into a single one)
+
+* Important Terms:
+1. Repository (it works like a database, all your history of filesystem such as all versions,snapshots,metadata,commits shortly whole project save in it and 
+it is a hidden folder named ".git" in the root directory of your project.
+2. Working Directory (the root folder of your project which contains your project's files)
+3. Files status Lifecycle (over to pic)
+4. Staging Area (A virtual place that collects all the files u want to include in next commit)
+
+* Head (represents the last commit)
+
+* Commit Hash (every commit has a unique identifier, a 40 character checksum)
+
+* Ignoring Files (if u dont want to create any history of any particular file so u can ignore in it by making an empty document named as ".gitignore" where u 
+mentioned the extension or name of file which u want to ignore)
+
+* Stash (a clipboard in git which provides you the facility to keep saving your changes temporarily)
+
+* Short lived Branches (they are temporary branches use to do a short purpose like bug fixes, features etc and when the work done they removed)
+
+* Long Lived Branches (they are permanent branches use to do a long live work like development, production and etc and not to be deleted)
+
+* Remote Repositories (A remote in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is 
+stored on a code hosting service like GitHub or on an internal server)(Server) 
+
+* GitHub (Github is online service for git to create remote repositories on github's server and collabrate with team mates)(Actually it is a online servive 
+provided by github which work for u as a Server)
+
+* When we create remote repositories in Github it create a commit with read me file.
+
+* Git Workflow (these is not the feature of git, these feature is provided by Github)
+
+* Pull Request: You create it if u want to review your code by your any teamate, team leader or manager so you can finally merge it into your production branch. 
+
+* Forking (A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. 
+Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea 
+and at last when u want to submit your work to the original repo or author u create a pull request then it depends on him either he accepts it or not)
+(these is not the feature of git, these feature is provided by Github)
+
+* You can't delete the current or working branch in git directly, you are supposed to checkout to the other branch to del that branch.
+
+* Git Revert (actually it doesn't delete a commit, it just create another commit with reverting process)
+
+* Git Merge Command (There are 2 possibilities using these command for merging, i) Fast Forward    ii) Merge Commmit)
+i) Fast Forward (when any other branch has a differ commit and u want to merge it into another and that hasn't any commit)
+ii) Merge Commit (when both branches has some differ commits and u want to merge both of them) (additional commit will create in parent branch and in that commit u 
+have the record of different commits of different branch or u can say these commit lead both branches at the same time)
+
+* Git Rebase (your all commits of different branch show in a single straight line just to give the look as your all commit performed in a single branch)
+
+
+
+
+
