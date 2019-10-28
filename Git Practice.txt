@@ -71,8 +71,10 @@ i) Fast Forward (when any other branch has a differ commit and u want to merge i
 ii) Merge Commit (when both branches has some differ commits and u want to merge both of them) (additional commit will create in parent branch and in that commit u 
 have the record of different commits of different branch or u can say these commit lead both branches at the same time)
 
-* Git Rebase (your all commits of different branch show in a single straight line just to give the look as your all commit performed in a single branch)
+* Git Rebase (your all commits of different branch show in a single straight line just to give the look as your all commit performed in a single branch).
 
+                                               END
+ 
 
 
 
